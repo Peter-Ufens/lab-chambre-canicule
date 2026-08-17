@@ -5,7 +5,8 @@ France Travail : ligne « Se former en autonomie ».
 
 **Hub Cursor :** [`hub-materiel`](https://github.com/Peter-Ufens/hub-materiel) (`<workspace>\hub-materiel`). Pas un 2ᵉ workspace Cursor.
 
-Machine : **`<hostname-pi>`** (Pi 5 8 Go). Config + captures : [`docs/pi-setup.md`](docs/pi-setup.md).
+Machine : **`<hostname-pi>`** (Pi 5 8 Go). Config + captures : [`docs/pi-setup.md`](docs/pi-setup.md).  
+Tutos YouTube (emboîtable, **pas de soudure**) : [`docs/tutos.md`](docs/tutos.md).
 
 ## Statut 17/08/2026
 
