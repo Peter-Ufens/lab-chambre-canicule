@@ -5,7 +5,8 @@ France Travail : ligne « Se former en autonomie ».
 
 **Hub Cursor :** [`Parc-Maison`](https://github.com/Peter-Ufens/Parc-Maison) (`D:\IA-CURSOR\Parc-Maison`). Pas un 2ᵉ workspace Cursor.
 
-Machine : **`Lab-Tiny-Peter`** (Pi 5 8 Go). Config + captures : [`docs/pi-setup.md`](docs/pi-setup.md).
+Machine : **`Lab-Tiny-Peter`** (Pi 5 8 Go). Config + captures : [`docs/pi-setup.md`](docs/pi-setup.md).  
+Tutos YouTube (emboîtable, **pas de soudure**) : [`docs/tutos.md`](docs/tutos.md).
 
 ## Statut 17/08/2026
 
