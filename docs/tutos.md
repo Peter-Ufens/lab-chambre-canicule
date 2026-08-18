@@ -32,4 +32,5 @@ Les vidéos ESP montrent parfois du **micro-USB**. Nos cartes Gotronic sont en *
 - Carte : **ESP32 Dev Module**. Blink : GPIO **2** (`LED_BUILTIN` n’existe pas).
 - BME : Rouge 3V3 · Noir GND · Bleu D21 · Jaune D22 · clip Qwiic **sur** le BME. Sketch dans `firmware/esp-a-bme-serial/`.
 - Moniteur série **115200**. Si écran blanc : bouton **EN** / RST sur l’ESP.
+- Firmware Wi-Fi + POST 1 min : `firmware/esp-wifi-bme/` (identité = MAC, pas l’IP ESP). Collecteur : `http://192.168.1.25:8080/health`
 - Les °C sur le bureau sont plus hauts (auto-chauffe USB). Placement E1/E2 plus tard.

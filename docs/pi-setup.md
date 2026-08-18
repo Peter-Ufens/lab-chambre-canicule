@@ -16,6 +16,7 @@ Pas de mot de passe, pas de secret Wi-Fi dans ce dépôt.
 | LAN | IPv4 **192.168.1.25** (DHCP, peut bouger) · MAC Wi-Fi `88-A2-9E-9A-F1-44` |
 | SSH | `ssh peter@192.168.1.25` (user **minuscules**) |
 | Bureau navigateur | Raspberry Pi Connect · client **2.12.2** · [devices](https://connect.raspberrypi.com/devices) |
+| Collecteur | **OK 18/08** · `http://192.168.1.25:8080/health` · systemd user `canicule-collector` · code dans `collector/` |
 
 HDMI PC classique : **incompatible** (il faut un câble **micro-HDMI**). Headless + Connect = volontaire.
 
