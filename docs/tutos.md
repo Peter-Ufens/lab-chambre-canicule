@@ -23,3 +23,13 @@ Captures du lab (Imager, hostname, Connect) : [`captures/`](captures/).
 | BME280 + ESP32 | https://randomnerdtutorials.com/esp32-bme280-arduino-ide-pressure-temperature-humidity/ |
 
 Les vidéos ESP montrent parfois du **micro-USB**. Nos cartes Gotronic sont en **USB-C**. Même logique (port COM).
+
+## Recette flash USB (18/08)
+
+- Câble **Gotronic** uniquement (pas le StarTech du SSD Pi). Jamais USB PC + prise 5 V en même temps.
+- Driver : **CP210x Universal Windows Driver** (zip Silicon Labs). Port : **COM3** (un ESP branché à la fois).
+- Arduino IDE 2.3.10 · gestionnaire de cartes : **esp32** par Espressif (pas « Arduino ESP32 Boards » / Nano).
+- Carte : **ESP32 Dev Module**. Blink : GPIO **2** (`LED_BUILTIN` n’existe pas).
+- BME : Rouge 3V3 · Noir GND · Bleu D21 · Jaune D22 · clip Qwiic **sur** le BME. Sketch dans `firmware/esp-a-bme-serial/`.
+- Moniteur série **115200**. Si écran blanc : bouton **EN** / RST sur l’ESP.
+- Les °C sur le bureau sont plus hauts (auto-chauffe USB). Placement E1/E2 plus tard.
