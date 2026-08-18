@@ -1,0 +1,6 @@
+[Unit]
+Description=Watchdog Wi-Fi <hostname-pi> (box ou repetiteur)
+
+[Service]
+Type=oneshot
+ExecStart=%h/lab-canicule/wifi-watchdog.sh
