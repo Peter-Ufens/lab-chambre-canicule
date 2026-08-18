@@ -1,0 +1,13 @@
+[Unit]
+Description=Collecteur canicule (HTTP + SQLite)
+After=network-online.target time-sync.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 %h/lab-canicule/collector.py
+WorkingDirectory=%h/lab-canicule
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
