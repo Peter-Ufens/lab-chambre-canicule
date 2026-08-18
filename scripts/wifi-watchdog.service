@@ -1,0 +1,6 @@
+[Unit]
+Description=Watchdog Wi-Fi Lab-Tiny-Peter (box ou repetiteur)
+
+[Service]
+Type=oneshot
+ExecStart=%h/lab-canicule/wifi-watchdog.sh

@@ -17,6 +17,7 @@ Pas de mot de passe, pas de secret Wi-Fi dans ce dépôt.
 | SSH | `ssh peter@192.168.1.25` (user **minuscules**) |
 | Bureau navigateur | Raspberry Pi Connect · client **2.12.2** · [devices](https://connect.raspberrypi.com/devices) |
 | Collecteur | **OK 18/08** · `http://192.168.1.25:8080/health` · systemd user `canicule-collector` · code dans `collector/` |
+| Watchdog Wi-Fi | **18/08 soir** · timer user `wifi-watchdog` · reconnect `wlan0` si passerelle morte (répéteur entrée) |
 
 HDMI PC classique : **incompatible** (il faut un câble **micro-HDMI**). Headless + Connect = volontaire.
 

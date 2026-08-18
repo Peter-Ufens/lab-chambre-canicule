@@ -10,15 +10,16 @@ Tutos : [`docs/tutos.md`](docs/tutos.md).
 Firmware POST : [`firmware/esp-wifi-bme/`](firmware/esp-wifi-bme/).  
 Collecteur : [`collector/`](collector/).
 
-## Statut 18/08/2026 ~15h37
+## Statut 18/08/2026 ~16h22
 
 | Brique | État |
 |---|---|
-| Pi OS / SSH / bureau Connect | **OK** |
+| Pi OS / SSH / bureau Connect | **OK** · watchdog Wi-Fi timer |
 | Collecteur HTTP + SQLite | **OK** · port **8080** · id = **MAC** |
-| ESP-A | POST **OK** · MAC `78:1C:3C:B9:47:0C` |
-| ESP-B | POST **OK** · MAC `78:1C:3C:B8:94:08` |
-| Placement E1/E2 | pas encore (mercredi) |
+| ESP-A (E1 entrée) | **up** · ~27,9 °C · RSSI -13 |
+| ESP-B (E2 coin PC) | **up** · ~29,4 °C · RSSI -52 |
+| Nuit mesures | **en cours** |
+| Vitrine Gamma / repo public | visée **mer. 19** |
 | Mini LLM sur le Pi | **non** · après canicule **et** WoL |
 
 Repo frère : [`lab-wol`](https://github.com/Peter-Ufens/lab-wol).
