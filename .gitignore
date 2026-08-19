@@ -4,6 +4,7 @@
 *credentials*
 secrets.h
 **/secrets.h
+clim_config.json
 *.sqlite
 canicule.sqlite
 .DS_Store

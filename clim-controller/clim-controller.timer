@@ -1,0 +1,10 @@
+[Unit]
+Description=Toutes les minutes : seuil clim, consigne, mode nuit
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=60s
+AccuracySec=15s
+
+[Install]
+WantedBy=timers.target
