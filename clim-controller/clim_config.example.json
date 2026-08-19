@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "collector_url": "http://127.0.0.1:8080/latest",
+  "hot_sensor_mac": "78:1C:3C:B8:94:08",
+  "cold_sensor_mac": "78:1C:3C:B9:47:0C",
+  "start_threshold_c": 27.0,
+  "stop_threshold_c": 25.5,
+  "setpoint_day_c": 24.0,
+  "setpoint_night_c": 25.0,
+  "night_start_hour": 22,
+  "night_end_hour": 7,
+  "max_gap_c": 3.0,
+  "driver": "stub",
+  "driver_options": {}
+}

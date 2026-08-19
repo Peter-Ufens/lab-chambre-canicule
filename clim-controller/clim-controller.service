@@ -1,0 +1,11 @@
+[Unit]
+Description=Pilotage clim canicule (stub, config clim_config.json)
+After=network-online.target canicule-collector.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/lab-canicule/clim_controller.py
+WorkingDirectory=%h/lab-canicule
+
+[Install]
+WantedBy=default.target
