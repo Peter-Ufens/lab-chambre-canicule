@@ -3,6 +3,11 @@
 Relevés chaleur **chambre** (ESP32 + BME280 → Raspberry) pour **dimensionner une clim**.  
 France Travail : ligne « Se former en autonomie ».
 
+**GitHub :**
+- **Privé (ops) :** https://github.com/Peter-Ufens/lab-chambre-canicule-private · remote `origin`
+- **Public (vitrine) :** https://github.com/Peter-Ufens/lab-chambre-canicule · remote `public`  
+Détail : [`REPOS.md`](REPOS.md). **≠** [`lab-wol`](https://github.com/Peter-Ufens/lab-wol).
+
 **Statut INDEX :** **`cloture`** · voir [`CLOTURE.md`](CLOTURE.md) · collecte **continue** · reprise ops après fibre ~**16/09** + GO Peter.
 
 **Présentation Gamma (04c) :**  

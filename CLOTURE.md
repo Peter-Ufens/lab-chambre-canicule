@@ -5,8 +5,11 @@
 | **Date clôture** | 2026-09-06 |
 | **Statut INDEX** | **`cloture`** (exploitation collecte **continue** · reprise ops après fibre rue ~**16/09/2026** + GO Peter) |
 | **Décideur** | Peter UFENS |
-| **GitHub** | **public** · https://github.com/Peter-Ufens/lab-chambre-canicule |
+| **GitHub privé (ops)** | https://github.com/Peter-Ufens/lab-chambre-canicule-private · remote `origin` |
+| **GitHub public (vitrine)** | https://github.com/Peter-Ufens/lab-chambre-canicule · remote `public` |
 | **Gamma (04c)** | https://gamma.app/docs/Canicule-pas-de-clim-comment-ne-pas-se-tromper-dappareil-0y21j1gd58cd990 |
+
+Voir [`REPOS.md`](REPOS.md). **≠ lab-wol.**
 
 ## Pourquoi on clôture (pas abandon)
 
@@ -43,7 +46,8 @@
 - Check LAN / reconfig Wi-Fi ESP ou Pi « pour la panne »
 - Brancher Kingston avant GO post-fibre
 - Ajouter mini-LLM dans ce repo (territoire **lab-wol**)
-- Committer `graphify-out/` · secrets (`secrets.h`, `clim_config.json`)
+- Committer `graphify-out/` · secrets (`secrets.h`, `clim_config.json`, `.env`)
+- Pousser un secret sur le remote **`public`** (vitrine)
 
 ## Liens
 

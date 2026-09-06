@@ -9,3 +9,8 @@ clim_config.json
 canicule.sqlite
 .DS_Store
 Thumbs.db
+
+# Barrière vitrine : jamais de secrets même en local oublié
+**/credentials/**
+**/<prive>.md
+*.eml
