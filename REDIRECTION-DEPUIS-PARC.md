@@ -23,9 +23,9 @@ Projet achat clim / archive LM : **`Canicule`** (pas le deck Gamma de ce lab).
 |---|---|
 | Firmware · collecteur · retention · watchdog · plans ops | **Ici** · `planning/` |
 | Deck Gamma / prompts FT (04c) | **Ici** · `presentations-gamma/` |
-| Inventaire câbles / box / matos / Pi proprio | `hub-materiel` |
-| Achat clim / LM archive | `Canicule` |
-| Mini-LLM Pi / diag réseau | **`lab-wol`** |
+| Inventaire câbles / box / matos / Pi proprio | `hub-materiel` · [LIRE-EN-PREMIER](../hub-materiel/LIRE-EN-PREMIER.md) |
+| Achat clim / LM archive | `Canicule` · [LIRE-EN-PREMIER](../Canicule/LIRE-EN-PREMIER.md) |
+| Mini-LLM Pi / diag réseau | **`lab-wol`** · [README](../lab-wol/README.md) |
 | Prix commande ESP · météo ville | **Parc** (privé) · pas ce repo public |
 
 ## Hors move (sensibles · restent Parc)
