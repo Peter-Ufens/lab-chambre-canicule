@@ -14,8 +14,8 @@ Détail : [`REPOS.md`](REPOS.md). **≠** [`lab-wol`](https://github.com/Peter-U
 https://gamma.app/docs/Canicule-pas-de-clim-comment-ne-pas-se-tromper-dappareil-0y21j1gd58cd990  
 Plans / prompts : [`presentations-gamma/`](presentations-gamma/).
 
-**Workspace Cursor :** ce repo. Matériel Pi / inventaire : [`hub-materiel`](https://github.com/Peter-Ufens/hub-materiel).  
-Frère WoL (+ mini-LLM prévu) : [`lab-wol`](https://github.com/Peter-Ufens/lab-wol).  
+**Workspace Cursor :** ce repo. Matériel Pi / inventaire : [`hub-materiel`](https://github.com/Peter-Ufens/hub-materiel) ([local](../hub-materiel/LIRE-EN-PREMIER.md)).  
+Frère WoL (+ mini-LLM prévu) : [`lab-wol`](https://github.com/Peter-Ufens/lab-wol) ([local](../lab-wol/README.md)).  
 Plans ops : [`planning/`](planning/).
 
 Machine : **`<hostname-pi>`** (Pi 5 8 Go). Config : [`docs/pi-setup.md`](docs/pi-setup.md).  
@@ -46,7 +46,7 @@ Le lab **continue de tourner** en exploitation (collecte jusqu’au jour J clim)
 
 1. Check LAN + relevés **19/08 → jour résolution fibre** (sans retoucher Wi-Fi Pi avant).
 2. Kingston XS2000 sur le Pi.
-3. Mini-LLM → **`lab-wol`** (pas ici).
-4. Export / dimensionnement clim au GO · achat → projet `Canicule` ~02/2027.
+3. Mini-LLM → **[`lab-wol`](../lab-wol/README.md)** (pas ici).
+4. Export / dimensionnement clim au GO · achat → projet [`Canicule`](../Canicule/LIRE-EN-PREMIER.md) ~02/2027.
 
 Pas de Wi-Fi / mots de passe ici (`secrets.h`, `clim_config.json` hors git).
