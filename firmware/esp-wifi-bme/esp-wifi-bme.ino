@@ -13,7 +13,7 @@
 #include "secrets.h"
 
 #ifndef COLLECTOR_HOST
-#define COLLECTOR_HOST "<IP-du-Pi>"
+#error "Definir COLLECTOR_HOST dans secrets.h (voir secrets.h.example)."
 #endif
 #ifndef COLLECTOR_PORT
 #define COLLECTOR_PORT 8080

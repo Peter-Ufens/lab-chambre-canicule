@@ -14,7 +14,7 @@
 | `secrets.h`, `.env`, mots de passe Wi-Fi | `secrets.h.example` avec placeholders |
 | `clim_config.json` réel | `clim_config.example.json` |
 | `*.sqlite` / bases mesures | docs + scripts |
-| credentials / PERSONNES | jamais |
+| credentials / données personnelles | jamais |
 
 `.gitignore` local couvre déjà `secrets.h`, `clim_config.json`, `.env`, sqlite.
 

@@ -2,7 +2,7 @@
 
 L’ESP est **client**. Il POST vers le Pi. Identité = **MAC**, pas l’IP DHCP de l’ESP (`.26` / `.27` = journal seulement).
 
-- URL : `http://<IP-du-Pi>:8080/ingest` (IPv4 du Pi ; `<hostname-pi>.home` résout souvent en IPv6, l’ESP32 aime mal)
+- URL : `http://<IP-du-Pi>:8080/ingest` (IPv4 du Pi ; un hostname `.home` résout souvent en IPv6, l’ESP32 aime mal)
 - Santé : `http://<IP-du-Pi>:8080/health`
 - Dernier point : `http://<IP-du-Pi>:8080/latest`
 

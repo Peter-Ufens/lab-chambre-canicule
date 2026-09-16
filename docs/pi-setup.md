@@ -1,19 +1,20 @@
-# <hostname-pi> — plateforme (17/08/2026)
+# Lab Tiny — plateforme (17/08/2026)
 
 Machine unique pour **ce lab** et pour [`lab-wol`](https://github.com/Peter-Ufens/lab-wol).  
-Hub Cursor : `<workspace>\hub-materiel` (pas un 2ᵉ projet Cursor).
+Hub Cursor : projet frère hub-materiel (pas un 2ᵉ workspace dédié).
 
-Pas de mot de passe, pas de secret Wi-Fi dans ce dépôt.
+Pas de mot de passe, pas de secret Wi-Fi dans ce dépôt.  
+**Les valeurs LAN ci-dessous sont anonymisées** (IP / MAC / user / hostname locaux restent hors dépôt public).
 
 ## Fait
 
 | Point | Valeur |
 |---|---|
 | Matériel | Raspberry Pi 5 **8 Go** · case officielle · dissipateur CPU · alim **27 W** |
-| Hostname | `<hostname-pi>` |
+| Hostname | `<hostname-pi>` (ex. `Lab-Tiny`) |
 | OS | Raspberry Pi OS **64-bit** (Trixie) · Imager **v2.0.10** |
 | Support install | SanDisk microSD 64 Go (boot SSD Kingston = plus tard) |
-| LAN | IPv4 **<IP-du-Pi>** (DHCP, peut bouger) · MAC Wi-Fi `XX-XX-XX-XX-XX-XX` |
+| LAN | IPv4 **`<IP-du-Pi>`** (DHCP, peut bouger) · MAC Wi-Fi `XX-XX-XX-XX-XX-XX` |
 | SSH | `ssh <utilisateur>@<IP-du-Pi>` (user **minuscules**) |
 | Bureau navigateur | Raspberry Pi Connect · client **2.12.2** · [devices](https://connect.raspberrypi.com/devices) |
 | Collecteur | **OK 18/08** · `http://<IP-du-Pi>:8080/health` · systemd user `canicule-collector` · code dans `collector/` |
@@ -35,7 +36,7 @@ HDMI PC classique : **incompatible** (il faut un câble **micro-HDMI**). Headles
 
 ## Recette courte
 
-1. Imager : Pi 5 · OS 64-bit · SanDisk · personnalisation (hostname, user `peter`, SSH, Wi-Fi, clavier FR). Connect Imager = non.
+1. Imager : Pi 5 · OS 64-bit · SanDisk · personnalisation (hostname, user local, SSH, Wi-Fi, clavier FR). Connect Imager = non.
 2. Alim **coupée** avant d’insérer la carte. Puis **27 W** seulement.
 3. SSH. Si `known_hosts` râle après reflash : `ssh-keygen -R <IP-du-Pi>`.
 4. `sudo apt update && sudo apt full-upgrade -y` · `rpi-connect on` · `rpi-connect signin` (URL sur le PC).
