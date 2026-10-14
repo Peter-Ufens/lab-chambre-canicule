@@ -57,5 +57,5 @@ Voir [`REPOS.md`](REPOS.md). **≠ lab-wol.**
 | Frère WoL + mini-LLM | `lab-wol` |
 | Achat clim archive | `Canicule` |
 | Vault | `02-Projets/lab-chambre-canicule.md` |
-| INDEX | `<workspace>\INDEX.md` |
+| INDEX | `<workspace>/INDEX.md` |
 | Redirection A-traiter checks | `A-traiter/entree/redirections/2026-08-26-evac-lab-canicule-checks-panne.md` |

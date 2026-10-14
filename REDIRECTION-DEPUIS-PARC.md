@@ -2,7 +2,7 @@
 
 **Date :** 2026-09-05 · **MAJ :** 2026-09-06  
 **Statut :** `cloture` temporaire · voir `CLOTURE.md` · reprise fibre ~16/09 + GO  
-**Workspace Cursor :** ce repo (`<workspace>\lab-chambre-canicule`).
+**Workspace Cursor :** ce repo (`<workspace>/lab-chambre-canicule`).
 
 ## Contexte
 
@@ -13,7 +13,7 @@ Plans ESP / sondes + Gamma étaient dans `hub-materiel/planning/`.
 | 12 plans ops mesure | `planning/` | SHA256 OK · originaux Parc **supprimés** |
 | 7 plans/prompts Gamma | `presentations-gamma/` | SHA256 OK · originaux Parc **supprimés** |
 
-Séparation : `<workspace>\Vault-Obsidian\planning\PLAN-SEPARATION-PARC-ENFANTS-2026-09-05.md`.
+Séparation : `<workspace>/Vault-Obsidian\planning\PLAN-SEPARATION-PARC-ENFANTS-2026-09-05.md`.
 
 Projet achat clim / archive LM : **`Canicule`** (pas le deck Gamma de ce lab).
 

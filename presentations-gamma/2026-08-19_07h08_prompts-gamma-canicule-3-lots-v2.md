@@ -12,7 +12,7 @@
 
 **Avatar canon (Peter, sur ton PC) :**
 `<workspace>\Obsidian\vault\00-Meta\profil-peter\media\peter-ufens-avatar-github-2026-04.jpeg`  
-Copies : `<workspace>\Suivi-Pro\pieces\images\` · Bureau `Importants\CV\` · fiche vault `Avatar-visuel-Peter.md`
+Copies : `<workspace>/Suivi-Pro\pieces\images\` · Bureau `Importants\CV\` · fiche vault `Avatar-visuel-Peter.md`
 
 ---
 

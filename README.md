@@ -14,7 +14,7 @@ Détail : [`REPOS.md`](REPOS.md). **≠** [`lab-wol`](https://github.com/Peter-U
 https://gamma.app/docs/Canicule-pas-de-clim-comment-ne-pas-se-tromper-dappareil-0y21j1gd58cd990  
 Plans / prompts : [`presentations-gamma/`](presentations-gamma/).
 
-**Workspace Cursor :** ce repo. Matériel Pi / inventaire : [`hub-materiel`](https://github.com/Peter-Ufens/hub-materiel) ([local](../hub-materiel/LIRE-EN-PREMIER.md)).  
+**Workspace Cursor :** ce repo. Matériel Pi / inventaire : [`hub-materiel`]((hub matériel privé)) ([local](../hub-materiel/LIRE-EN-PREMIER.md)).  
 Frère WoL (+ mini-LLM prévu) : [`lab-wol`](https://github.com/Peter-Ufens/lab-wol) ([local](../lab-wol/README.md)).  
 Plans ops : [`planning/`](planning/).
 

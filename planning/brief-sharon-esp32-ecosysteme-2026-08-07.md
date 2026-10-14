@@ -91,10 +91,10 @@ Karen : le **DevKit ESP32 générique** (pas S3 obligatoire) couvre thermique + 
 
 | Fichier | Contenu |
 |---|---|
-| `<workspace>\hub-materiel\planning\panier-commande-esp32-solution-c-2026-08-07.md` | Liens commande C |
-| `<workspace>\hub-materiel\planning\recherche-esp32-capteurs-chambre-2026-08-07.md` | Recherche + BOM + LDLC |
-| `<workspace>\hub-materiel\context\pistes-esp32.md` | W1 / W2 / W2bis / W3 |
-| `<workspace>\hub-materiel\planning\prochaines-etapes.md` | File W |
+| `<workspace>/hub-materiel\planning\panier-commande-esp32-solution-c-2026-08-07.md` | Liens commande C |
+| `<workspace>/hub-materiel\planning\recherche-esp32-capteurs-chambre-2026-08-07.md` | Recherche + BOM + LDLC |
+| `<workspace>/hub-materiel\context\pistes-esp32.md` | W1 / W2 / W2bis / W3 |
+| `<workspace>/hub-materiel\planning\prochaines-etapes.md` | File W |
 | Vault | `04-Idees/IDEE-Wake-on-LAN-ESP32.md` · `ESP32-vs-Raspberry-Pi-Comparatif.md` |
 | A-traiter | `2026-08-06-cloudflare-rdp-wol-access-papier.md` · ESP32 = lab local |
 
